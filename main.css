@@ -1,0 +1,237 @@
+.clearfix::before,.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+body{
+    color:black;
+}
+
+a{
+    text-decoration: none;
+    color:white!important;
+}
+
+header{
+    background-color:#55acee;
+    overflow:hidden;
+    padding-top:2%;
+}
+
+header h1{
+    width:100%;
+    text-align:center;
+    color:white;
+}
+
+#about,#donate,#events,#contact{
+    padding:50px;
+    float:left;
+    text-align:center;
+    color:white;
+    margin:2%;
+    margin-top:3%;
+    font-size:32px
+}
+
+#about{
+    background-image: url('https://static.pexels.com/photos/3865/lights-night-firework-new-year-s-eve.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    margin-left:5%;
+    -webkit-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+
+#contact{
+    background-image: url('https://static.pexels.com/photos/1694/hands-smartphone-taking-photo-festival.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    -webkit-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+
+#events{
+    background-image: url('https://static.pexels.com/photos/678/lights-festival-party-dancing.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    -webkit-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+
+#donate{
+    background-image: url('https://static.pexels.com/photos/3863/firework-new-year-s-eve-december-31-fireworks.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    -webkit-filter:grayscale(100%);
+    filter:grayscale(100%);
+}
+
+#logo{
+    background-image: url('https://static.pexels.com/photos/16408/pexels-photo.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    float:left;
+    width:200px;
+    height:175px;
+    margin-top:2%;
+}
+
+#picture{
+    float:left;
+    width:250px;
+    height:250px;
+    background-image: url('https://static.pexels.com/photos/2852/black-and-white-party-music-club.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position:center;
+    margin-left:10%;
+}
+
+#top{
+    border-bottom:1px solid black;
+    overflow: hidden;
+    width: 100%;
+}
+
+#top p{
+    float:right;
+    width:50%;
+}
+
+table{
+    width:40%;
+    float:left;
+}
+
+table:last-of-type{
+    float:right;
+}
+
+table h1{
+    text-align:center;
+}
+
+#button{
+    padding:40px 200px;
+    background-color:#55acee;
+    float:left;
+    margin-top:5%;
+    margin-left:22%;
+    font-size:42px;
+}
+
+#button:hover{
+    text-decoration:none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0,0,0,.8);
+}
+
+main{
+    overflow:hidden;
+    max-width:100%;
+}
+
+main, #top{
+    padding:1%;
+}
+
+p{
+    padding:2%;
+}
+
+footer{
+    padding:25px;
+    padding-bottom:100px;
+    background-color:#333;
+    color:white;
+    overflow:hidden;
+    width:100%;
+}
+
+footer p{
+    float:left;
+}
+
+footer ul{
+    float:right;
+    list-style-type: none;
+    width:30%;
+}
+
+footer li{
+    float:left;
+    display:inline;
+    padding:3%;
+}
+
+footer ul li a{
+    font-size:64px;
+    font-weight:600;
+}
+
+footer ul li a:hover{
+    text-decoration:none;
+}
+
+footer img{
+    width:50px;
+    height:50px;
+}
+
+@media screen and (max-width:350px) {
+    footer ul{
+        width:120%;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:700px) {
+    #border{
+        width:0;
+        height:0;
+    }
+    
+    #first{
+        float:none;
+        width:100%;
+        position: relative;
+    }
+    
+    #last{
+        float:none;
+        width:100%;
+        position:relative;
+        margin-top:0;
+    }
+    
+    footer{
+        padding-bottom:150px;
+    }
+    
+    footer ul{
+        width:100%;
+        padding-left:0;
+    }
+}
+
+@media screen and (min-width:760px) and (max-width:1100px) {
+    #border{
+        margin-top:5%;
+    }
+    
+    #last{
+        margin-top:40%;
+    }
+    
+    footer ul{
+        width:45%;
+        padding-left:0;
+    }
+}
