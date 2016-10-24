@@ -14,6 +14,19 @@ a{
     color:white!important;
 }
 
+#toTop{
+    position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+.btn-info{
+    background-color:#55acee!important;
+    border-color:#55acee!important;
+}
+
 header{
     background-color:#55acee;
     overflow:hidden;
@@ -84,15 +97,11 @@ header h1{
     margin-top:2%;
 }
 
-#picture{
-    float:left;
-    width:250px;
-    height:250px;
-    background-image: url('https://static.pexels.com/photos/2852/black-and-white-party-music-club.jpg');
-    background-repeat: no-repeat;
-    background-size:100% 100%;
-    background-position:center;
-    margin-left:10%;
+#myCarousel{
+    float:left!important;
+    width:350px!important;
+    height:250px!important;
+    margin-left:10%!important;
 }
 
 #top{
@@ -141,6 +150,16 @@ main{
 
 main, #top{
     padding:1%;
+}
+
+h1{
+    text-align:center;
+    width:100%;
+}
+
+hr{
+    border-color:black!important;
+    width:98%;
 }
 
 p{
